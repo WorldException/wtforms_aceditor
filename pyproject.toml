@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wtforms_aceditor"
-version = "0.0.1"
+version = "0.0.2"
 description = "wtforms aceditor component"
 readme = "README.md"
 license = { file = "LICENSE" }
