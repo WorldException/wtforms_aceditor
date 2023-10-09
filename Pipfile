@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+wtforms = "==2.3.3"
+markupsafe = "*"
+
+[dev-packages]
+flask = "*"
+flask-wtf = "*"
+
+[requires]
+python_version = "3.11"
+
+[scripts]
+example1 = ""
