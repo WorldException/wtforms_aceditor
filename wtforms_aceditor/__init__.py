@@ -26,7 +26,7 @@ import os
 TEMPLATE = u"""
     <div id="div_%(id)s">
     </div>
-    <textarea %(params)s hidden>%(value)s</textarea>
+    <textarea id="%(id)s" name="%(id)s" hidden style="display: none">%(value)s</textarea>
 """
 
 TEMPLATE_SCRIPT="""

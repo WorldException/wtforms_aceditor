@@ -16,7 +16,7 @@ requires = [
 
 setup(
     name="wtforms_aceditor",
-    version="0.0.1",
+    version="0.0.2",
     license="GPL",
     description='wtforms aceditor component',
     long_description=read("README.md"),
