@@ -10,7 +10,7 @@ def read(fname):
         return ''
 
 requires = [
-    'wtforms="==2.3.3"',
+    'wtforms==2.3.3',
     'markupsafe',
 ]
 
@@ -33,6 +33,12 @@ setup(
     ],
     packages=['wtforms_aceditor'],
     keywords='wtforms,aceditor,flask',
-    requires=requires,
-    install_requires=requires,
+    requires=[
+        'wtforms',
+        'markupsafe',
+    ],
+    install_requires=[
+        'wtforms',
+        'markupsafe',
+    ]
 )

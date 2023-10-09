@@ -15,7 +15,7 @@ classifiers = [
 ]
 keywords = ["wtforms", "flask", "aceditor"]
 dependencies = [
-    "wtforms ==2.3.3",
+    "wtforms<=2.3.3",
     "markupsafe"
 ]
 requires-python = ">=3.9"
